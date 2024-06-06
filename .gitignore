@@ -1,0 +1,8 @@
+# Mac files
+.DS_Store
+
+# Obsidian
+.obsidian
+
+# dotenv environment variable files
+.env*
