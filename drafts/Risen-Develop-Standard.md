@@ -6,15 +6,15 @@
 >
 > 串形命名（Kebab Case）：用短横线 - 作为单词的分隔符
 
-**文件路径：**以“/”开始，如“/public/uploads/filename.jpg”
-
 **后端方法内变量名：**驼峰命名，如 userLoginCount
 
 **前端参数名：**蛇形命名，如 user_name
 
-**文件命名：** 小蛇形命名，如 risen_document.docx（如果是大蛇形命名也可以）
+**文件命名：** 串形命名，如 risen-document.docx
 
-**文件夹命名：** 大驼峰命名，如 RisenDocument
+**文件夹命名：**串形命名，如 Risen-Document
+
+**文件路径：**以“/”开始，如“/public/uploads/filename.jpg”
 
 ## Git
 
@@ -109,3 +109,14 @@
 // ================================================================
 ```
 
+## Pics
+
+- **Recents**
+
+​    收集箱，不知道如何归类，或者不重要的可以扔到这里
+
+（如果是Inbox项目，只需要精确到月份即可）
+
+- **Historys**
+
+​    以前的照片，未归档，搞不清楚了
