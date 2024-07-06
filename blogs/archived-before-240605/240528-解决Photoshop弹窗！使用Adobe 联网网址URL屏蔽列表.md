@@ -341,6 +341,6 @@
 127.0.0.1 9ngulmtgqi.adobe.io
 ```
 
-> 取自：https://github.com/Ruddernation-Designs/Adobe-URL-Block-List
+> https://github.com/ethanaicode/Adobe-Block-Hosts-List
 >
-> 更新：2024-05-28
+> 可以参考官方保持更新
