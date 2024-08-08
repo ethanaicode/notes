@@ -2,7 +2,7 @@
 
 > 驼峰命名（Camel Case）：除第一个单词，其它单词首字母大写
 >
-> 蛇形命名（Snake Case）：用下划线 _ 作为单词的分隔符
+> 蛇形命名（Snake Case）：用下划线 \_ 作为单词的分隔符
 >
 > 串形命名（Kebab Case）：用短横线 - 作为单词的分隔符
 
@@ -63,7 +63,7 @@
 ```php
 /**
  * The language file is stored in the lang directory
- * 
+ *
  * Note: The language file is stored in the lang directory, and the file name is the language name.
  *      all language files will be merged into one array, so the same key will be overwritten.
  */
@@ -74,7 +74,7 @@
 ```php
 /**
  * Get the translation value of the corresponding language
- 
+
  * @since 1.0
  * @dateTime 2023-11-15
  * @param string $translation   The translation key, like 'success' or 'boolean.true'
@@ -85,9 +85,22 @@
 
 **分割线**
 
-80个字符，长的分隔符，请用在方法体外，
+```yaml
+---
+#------------------------
+# 分割线
+#------------------------
+```
 
-64个字符，用在方法体内，方便查看代码
+```python
+# ----------------------------------------------------------------
+# 分割线
+# ----------------------------------------------------------------
+```
+
+80 个字符，长的分隔符，请用在方法体外，
+
+64 个字符，用在方法体内，方便查看代码
 
 ```php
 /**
@@ -103,7 +116,7 @@
 // ----------------------------------------------------------------
 
 // code ...
-  
+
 // ----------------------------------------------------------------
 // Code End
 // ================================================================
@@ -113,10 +126,10 @@
 
 - **Recents**
 
-​    收集箱，不知道如何归类，或者不重要的可以扔到这里
+​ 收集箱，不知道如何归类，或者不重要的可以扔到这里
 
-（如果是Inbox项目，只需要精确到月份即可）
+（如果是 Inbox 项目，只需要精确到月份即可）
 
 - **Historys**
 
-​    以前的照片，未归档，搞不清楚了
+​ 以前的照片，未归档，搞不清楚了
