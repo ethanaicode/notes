@@ -119,9 +119,3 @@
 最后，为了安全起见，建议关闭存储桶的公共访问权限，并设置存储桶的访问权限为私有。
 
 这样只有 CloudFront 能访问你的桶，防止绕过 CDN 直连。
-
-```bash
-for img in *.jpg; do
-  magick "$img" "./${img%.jpg}.jpg"
-done
-```
